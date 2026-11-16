@@ -1,0 +1,60 @@
+fn main() {
+    //ส่วนที่ 1: แสดงตัวเลข
+    println!("ส่วนที่ 1: แสดงตัวเลข 1 ถึง 30");
+
+    for number in 1..=30 {
+        println!("{}", number);
+    }
+
+    //ส่วนที่ 2: จำแนกเลขคู่และเลขคี่
+    println!("\nส่วนที่ 2: จำแนกเลขคู่และเลขคี่ 1 ถึง 30");
+
+    for number in 1..=30 {
+        if number % 2 == 0 {
+            println!("เลขคู่: {}", number);
+        } else {
+            println!("เลขคี่: {}", number);
+        }
+    }
+
+    //ส่วนที่ 3: คำนวณผลรวม
+    println!("\nส่วนที่ 3: คำนวณผลรวมของตัวเลข 1 ถึง 30");
+
+    let mut total = 0;
+
+    for number in 1..=30 {
+        total += number;
+    }
+    println!("ผลรวม: {}", total);
+
+    //ส่วนที่ 4: ฝึกใช้ break และ continue
+    println!("\nส่วนที่ 4: ฝึกใช้ break และ continue");
+
+    let mut count = 0;
+    loop {
+        count += 1;
+        if count == 10 {
+            break;
+        }
+        if count % 2 == 0 {
+            continue;
+        }
+        println!("Count: {}", count);
+    }
+
+    //ส่วนที่ โจทย์เพิ่มเติม
+    println!("\nส่วนที่ โจทย์เพิ่มเติม: แสดงตัวเลข 1 ถึง 30 และจำแนกเลขคู่และเลขคี่");
+
+    let mut even_total = 0;
+    for number in 1..=30 {
+        if number % 2 == 0 {
+            println!("เลขคู่: {}", number);
+            even_total += number;
+        } else {
+            println!("เลขคี่: {}", number);
+        }
+    }
+
+    //2. แสดงผลรวมของเลขคู่
+    println!("Even Total: {}", even_total);
+}
