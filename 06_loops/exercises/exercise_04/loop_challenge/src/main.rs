@@ -43,18 +43,37 @@ fn main() {
     }
 
     //ส่วนที่ โจทย์เพิ่มเติม
-    println!("\nส่วนที่ โจทย์เพิ่มเติม: แสดงตัวเลข 1 ถึง 30 และจำแนกเลขคู่และเลขคี่");
 
-    let mut even_total = 0;
-    for number in 1..=30 {
-        if number % 2 == 0 {
-            println!("เลขคู่: {}", number);
-            even_total += number;
-        } else {
-            println!("เลขคี่: {}", number);
-        }
+    // ข้อ 1: เปลี่ยนช่วงตัวเลขจาก 1-30 เป็น 1-100
+    println!("\nส่วนที่ โจทย์เพิ่มเติม: แสดงตัวเลข 1 ถึง 100");
+
+    for number in 1..=100 {
+        println!("{}", number);
     }
 
     //2. แสดงผลรวมของเลขคู่
-    println!("Even Total: {}", even_total);
+    println!("\nส่วนที่ โจทย์เพิ่มเติม: แสดงตัวเลข 1 ถึง 100 และจำแนกเลขคู่และเลขคี่");
+
+    let mut even_total = 0;
+    let mut odd_total = 0;
+
+    for number in 1..=100 {
+        if number % 2 == 0 {
+            //println!("เลขคู่: {}", number);
+            even_total += number;
+        } else if number % 2 != 0 {
+            //println!("เลขคี่: {}", number);
+            odd_total += number;
+        }
+    }
+    println!("ผลรวมของเลขคู่: {}", even_total);
+    println!("ผลรวมของเลขคี่: {}", odd_total);
+
+    // try
+    let mut number = 1;
+
+    while number <= 30 {
+        println!("{}", number);
+        number += 1;
+    }
 }
