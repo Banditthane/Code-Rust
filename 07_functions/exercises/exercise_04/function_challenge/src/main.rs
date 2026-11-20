@@ -15,6 +15,7 @@ fn calculate_average(total: u32, subjects: u32) -> f64 {
     }
 
     total as f64 / subjects as f64
+    //total as f64 คือ as การแปลงค่า total จาก u32 เป็น f64
 }
 
 // ส่วนที่ 4: ตรวจสอบผลสอบ
@@ -24,6 +25,7 @@ fn is_passed(score: u32) -> bool {
 
 // โจทย์เพิ่มเติม: คำนวณเกรด
 fn get_grade(score: u32) -> &'static str {
+    //'static: Lifetime ตลอดอายุโปรแกรม
     if score >= 80 {
         "A"
     } else if score >= 70 {
