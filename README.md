@@ -1,43 +1,93 @@
-# 🦀 Rust Learning Journey
+# Rust Complete — Learning Repository
 
-Repository สำหรับเรียนรู้และฝึกเขียนโปรแกรมภาษา Rust ตั้งแต่ระดับเริ่มต้น (Beginner) ไปจนถึงระดับที่สามารถพัฒนาโปรแกรมและโปรเจกต์ขนาดเล็กได้ด้วยตนเอง
+Repository สำหรับเรียนรู้ภาษา **Rust ตั้งแต่ระดับ Beginner ถึง Advanced** ผ่านบทเรียน แบบฝึกหัด และโปรเจกต์จริง โดยจัดเนื้อหาเป็นลำดับจากพื้นฐานไปสู่การพัฒนา Software ที่พร้อมใช้งานจริง
 
-เนื้อหาแบ่งเป็นบทเรียน แบบฝึกหัด และ Mini Projects โดยเรียงลำดับจากง่ายไปยาก เพื่อให้สามารถเรียนรู้และทบทวนได้อย่างเป็นระบบ
+## Objectives
 
-## 🎯 Objectives
+- เรียนรู้ Syntax และพื้นฐานของภาษา Rust
+- เข้าใจ Ownership, Borrowing และ Lifetime
+- ใช้งาน Collections, Structs, Enums, Traits และ Generics
+- พัฒนาโปรแกรมด้วย Error Handling, Testing และ Modules
+- เรียนรู้ Smart Pointers, Concurrency และ Async Programming
+- พัฒนา CLI, Networking, Web API และ Database Applications
+- ฝึกใช้เครื่องมือสำหรับ Professional Rust Development
+- สร้างผลงานจริงและ Portfolio
 
-เป้าหมายของ Repository นี้คือ
+## Learning Roadmap
 
-- เรียนรู้พื้นฐานภาษา Rust อย่างเป็นลำดับ
-- เข้าใจ Syntax และแนวคิดสำคัญของ Rust
-- ฝึกเขียนโปรแกรมด้วยตนเอง
-- เข้าใจ Ownership, Borrowing และ Lifetimes
-- ฝึกแก้ปัญหาด้วย Functions และ Data Structures
-- เรียนรู้การจัดการ Errors และการเขียน Tests
-- สามารถพัฒนา Mini Projects ด้วย Rust ได้
+หลักสูตรแบ่งออกเป็น 5 Phases รวม 31 Chapters
 
-## 📚 Learning Resources
+### Phase 1 — Rust Fundamentals
 
-แหล่งเรียนรู้หลัก:
+| Chapter | Topic        |
+| ------- | ------------ |
+| 00      | Setup        |
+| 01      | Fundamentals |
+| 02      | Variables    |
+| 03      | Data Types   |
+| 04      | Operators    |
+| 05      | Conditions   |
+| 06      | Loops        |
+| 07      | Functions    |
+| 08      | Strings      |
+| 09      | Ownership    |
+| 10      | Borrowing    |
 
-- W3Schools Rust Tutorial
-- The Rust Programming Language (The Rust Book)
-- Rust Official Documentation
+### Phase 2 — Rust Core Concepts
 
-หมายเหตุ: ใช้ W3Schools เป็นเส้นทางเรียนรู้พื้นฐาน และเสริมเนื้อหาที่จำเป็นสำหรับการเขียน Rust ในระดับต่อไป
+| Chapter | Topic           |
+| ------- | --------------- |
+| 11      | Data Structures |
+| 12      | Structs         |
+| 13      | Enums           |
+| 14      | Modules         |
+| 15      | Error Handling  |
+| 16      | Collections     |
+| 17      | Traits          |
+| 18      | Generics        |
+| 19      | Lifetimes       |
+| 20      | Testing         |
 
-## 🗂️ Repository Structure
+### Phase 3 — Advanced Rust
+
+| Chapter | Topic                        |
+| ------- | ---------------------------- |
+| 21      | Projects                     |
+| 22      | Closures & Iterators         |
+| 23      | Smart Pointers               |
+| 24      | Concurrency & Multithreading |
+| 25      | Async Programming            |
+| 26      | Macros                       |
+| 27      | Unsafe Rust                  |
+| 28      | Networking & Web Development |
+| 29      | Database & Serialization     |
+
+### Phase 4 — Professional Rust Development
+
+| Chapter | Topic                         |
+| ------- | ----------------------------- |
+| 30      | Professional Rust Development |
+
+### Phase 5 — Real-world Projects & Portfolio
+
+| Chapter | Topic                           |
+| ------- | ------------------------------- |
+| 31      | Real-world Projects & Portfolio |
+
+## Repository Structure
 
 ```text
 proj-code-rust/
-│
 ├── README.md
 ├── ROADMAP.md
 ├── PROGRESS.md
 ├── CONTRIBUTING.md
 ├── LICENSE
-│
 ├── docs/
+│   ├── learning-guide.md
+│   ├── coding-standard.md
+│   ├── exercise-rules.md
+│   └── glossary.md
 ├── 00_setup/
 ├── 01_fundamentals/
 ├── 02_variables/
@@ -60,116 +110,150 @@ proj-code-rust/
 ├── 19_lifetimes/
 ├── 20_testing/
 ├── 21_projects/
-│
+├── 22_closures_iterators/
+├── 23_smart_pointers/
+├── 24_concurrency_multithreading/
+├── 25_async_programming/
+├── 26_macros/
+├── 27_unsafe_rust/
+├── 28_networking_web_development/
+├── 29_database_serialization/
+├── 30_professional_rust_development/
+├── 31_real_world_projects_portfolio/
 └── resources/
+    ├── references.md
+    └── useful-links.md
 ```
 
-## 🧭 Learning Method
+> หมายเหตุ: ชื่อโฟลเดอร์ของแต่ละ Chapter ให้ยึดตามชื่อที่ใช้อยู่จริงใน Repository หากต่างจากตัวอย่างนี้ ไม่จำเป็นต้องเปลี่ยนชื่อโฟลเดอร์เพื่อให้ตรงกับ README
 
-แบ่งการเรียนรู้ออกเป็น 3 รูปแบบ
+## Learning Method
 
-### 1. LEARN
+แต่ละ Chapter ประกอบด้วย:
 
-ศึกษาเนื้อหาและทดลองเขียนโค้ดตามตัวอย่าง
+- `README.md` — ภาพรวมของบท
+- `01_...` ถึง `04_...` — บทเรียน 4 หัวข้อ
+- `exercises/` — แบบฝึกหัด 4 ระดับ
 
-### 2. PRACTICE
+รูปแบบแบบฝึกหัด:
 
-ทำแบบฝึกหัดด้วยตนเอง โดยพยายามไม่ดูเฉลยก่อน
+1. Easy
+2. Easy–Medium
+3. Medium
+4. Challenge
 
-### 3. BUILD
+แต่ละ Exercise ควรมี README ระบุ:
 
-นำความรู้จากบทเรียนมาสร้างโปรแกรมหรือ Mini Project
+- Objective
+- Problem Statement
+- Requirements
+- Constraints
+- Expected Output
+- Hints
+- Completion Checklist
 
-## 📊 Difficulty Levels
+แบบฝึกหัดเน้นให้ผู้เรียนลงมือเขียนโค้ดด้วยตนเอง โดยไม่แสดงเฉลยล่วงหน้า
 
-| Level | Description |
-|---|---|
-| L1 - Beginner | เข้าใจแนวคิดและเขียนโค้ดพื้นฐาน |
-| L2 - Basic | ประยุกต์ใช้ความรู้กับโจทย์ทั่วไป |
-| L3 - Intermediate | แก้ปัญหาที่มีหลายขั้นตอน |
-| L4 - Challenge | ออกแบบและพัฒนาโปรแกรมด้วยตนเอง |
+## Development Environment
 
-## ⚙️ Requirements
+เครื่องมือหลัก:
 
-เครื่องมือที่แนะนำ:
-
-- Rust
+- Rustup
+- Rust Compiler (`rustc`)
 - Cargo
 - Visual Studio Code
-- Git
-- GitHub
+- rust-analyzer
+- rustfmt
+- Clippy
 
-ตรวจสอบการติดตั้ง Rust:
+ตรวจสอบการติดตั้ง:
 
 ```powershell
 rustc --version
 cargo --version
+rustup --version
+rustup show
 ```
 
-สร้าง Rust Project:
+ติดตั้ง Components ที่จำเป็น:
 
 ```powershell
-cargo new my_first_rust
-cd my_first_rust
+rustup component add rustfmt clippy
+```
+
+## Common Cargo Commands
+
+สร้างโปรเจกต์:
+
+```powershell
+cargo new my_project --vcs none
+```
+
+รันโปรแกรม:
+
+```powershell
 cargo run
 ```
 
-ตรวจสอบโค้ด:
+ตรวจสอบ Compile:
 
 ```powershell
 cargo check
-cargo test
-cargo fmt --check
+```
+
+จัดรูปแบบโค้ด:
+
+```powershell
+cargo fmt
+```
+
+ตรวจสอบคุณภาพโค้ด:
+
+```powershell
 cargo clippy
 ```
 
-## 📝 Exercise Format
+รันทดสอบ:
 
-แบบฝึกหัดแต่ละข้อควรประกอบด้วย:
-
-1. Objective
-2. Concept
-3. Problem
-4. Requirements
-5. Expected Output
-6. Acceptance Criteria
-
-ตัวอย่าง:
-
-```text
-07_functions/
-│
-├── 01_function_basics/
-├── 02_parameters/
-├── 03_return_values/
-├── 04_multiple_parameters/
-└── 05_practical_exercises/
+```powershell
+cargo test
 ```
 
-## ✅ Learning Rules
+สร้าง Release Build:
 
-- อ่านเนื้อหาก่อนลงมือเขียนโค้ด
+```powershell
+cargo build --release
+```
+
+## Learning Principles
+
+- เรียนตามลำดับจากพื้นฐานไปขั้นสูง
+- อ่านบทเรียนก่อนเริ่มแบบฝึกหัด
 - ทดลองเขียนโค้ดด้วยตนเอง
-- ทำแบบฝึกหัดก่อนดูเฉลย
-- ทดสอบโปรแกรมทุกครั้ง
-- บันทึกสิ่งที่เรียนรู้
-- ทบทวนบทที่ยังไม่เข้าใจ
-- ทำ Mini Project หลังเรียนจบกลุ่มหัวข้อสำคัญ
+- อ่าน Compiler Errors และทำความเข้าใจสาเหตุ
+- ใช้ `cargo fmt`, `cargo clippy` และ `cargo test` อย่างสม่ำเสมอ
+- ไม่ข้ามหัวข้อสำคัญ เช่น Ownership, Borrowing และ Lifetimes
+- สร้างโปรเจกต์จริงเพื่อทบทวนความรู้
 
-## 🏁 Final Goal
+## Completion Criteria
 
-เมื่อเรียนครบตาม Roadmap ควรสามารถ:
+ถือว่าเรียนจบหลักสูตรเมื่อ:
 
-- อ่านและเขียน Rust Syntax ได้
-- ใช้ Variables, Functions และ Data Structures ได้
-- เข้าใจ Ownership และ Borrowing
-- ออกแบบ Structs และ Enums ได้
-- ใช้ Modules และจัดโครงสร้างโปรแกรมได้
-- จัดการ Errors และเขียน Tests ได้
-- สร้างโปรแกรมขนาดเล็กด้วย Rust ได้
+- [ ] ผ่านเนื้อหาทั้ง 31 Chapters
+- [ ] ทำแบบฝึกหัดตามลำดับ
+- [ ] เข้าใจ Ownership และ Borrowing
+- [ ] ใช้ Cargo และเครื่องมือพื้นฐานได้
+- [ ] เขียน Unit Tests และ Integration Tests ได้
+- [ ] พัฒนา CLI Application ได้
+- [ ] พัฒนา Web API และเชื่อมต่อ Database ได้
+- [ ] เข้าใจ Async และ Concurrency
+- [ ] ทำ Final Project สำเร็จ
+- [ ] มี Repository และ Documentation สำหรับ Portfolio
+
+## License
+
+โปรเจกต์นี้ใช้ License ตามที่ระบุในไฟล์ `LICENSE`
 
 ---
 
-**Learning Philosophy**
-
-Learn → Practice → Understand → Build → Improve
+**Learn Rust step by step. Build projects. Become a Rust developer.**

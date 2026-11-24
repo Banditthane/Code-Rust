@@ -1,144 +1,130 @@
-# 📊 Rust Learning Progress
+# Rust Complete — Progress Tracker
 
-ไฟล์สำหรับติดตามความคืบหน้าในการเรียนรู้ภาษา Rust
+ใช้ไฟล์นี้ติดตามความคืบหน้าการเรียน Rust ตั้งแต่ Chapter 00 ถึง Chapter 31
 
-## Current Status
+## Status Legend
 
-| Item               | Status      |
-| ------------------ | ----------- |
-| Current Phase      | Phase 0     |
-| Current Chapter    | 00_setup    |
-| Completed Chapters | 0 / 22      |
-| Completed Projects | 0 / 6       |
-| Overall Status     | Not Started |
+- [ ] Not Started
+- [x] Completed
+- [~] In Progress
+- [!] Needs Review
 
-## Phase Progress
+> ให้เปลี่ยนสถานะเป็น Completed เมื่อทำงานตามเกณฑ์ของบทนั้นจริง ไม่ใช่เพียงสร้าง Folder หรือ README แล้ว
 
-### Phase 0: Environment Setup
+## Overall Progress
 
-- [ ] Install Rust
-- [ ] Install Cargo
-- [ ] Setup VS Code
-- [ ] Create First Rust Project
-- [ ] Run First Rust Program
-- [ ] Understand Cargo.toml
+| Phase                                     | Chapters | Status |
+| ----------------------------------------- | -------: | ------ |
+| Phase 1 — Rust Fundamentals               |    00–10 | [ ]    |
+| Phase 2 — Rust Core Concepts              |    11–20 | [ ]    |
+| Phase 3 — Advanced Rust                   |    21–29 | [ ]    |
+| Phase 4 — Professional Development        |       30 | [ ]    |
+| Phase 5 — Real-world Projects & Portfolio |       31 | [ ]    |
 
-### Phase 1: Rust Fundamentals
+## Phase 1 — Rust Fundamentals
 
-- [ ] 01_fundamentals
-- [ ] 02_variables
-- [ ] 03_data_types
-- [ ] 04_operators
+- [ ] 00 — Setup
+- [ ] 01 — Fundamentals
+- [ ] 02 — Variables
+- [ ] 03 — Data Types
+- [ ] 04 — Operators
+- [ ] 05 — Conditions
+- [ ] 06 — Loops
+- [ ] 07 — Functions
+- [ ] 08 — Strings
+- [ ] 09 — Ownership
+- [ ] 10 — Borrowing
 
-### Phase 2: Program Control
+## Phase 2 — Rust Core Concepts
 
-- [ ] 05_conditions
-- [ ] 06_loops
-- [ ] 07_functions
+- [ ] 11 — Data Structures
+- [ ] 12 — Structs
+- [ ] 13 — Enums
+- [ ] 14 — Modules
+- [ ] 15 — Error Handling
+- [ ] 16 — Collections
+- [ ] 17 — Traits
+- [ ] 18 — Generics
+- [ ] 19 — Lifetimes
+- [ ] 20 — Testing
 
-### Phase 3: Rust Core Concepts
+## Phase 3 — Advanced Rust
 
-- [ ] 08_strings
-- [ ] 09_ownership
-- [ ] 10_borrowing
-- [ ] 11_data_structures
+- [ ] 21 — Projects
+- [ ] 22 — Closures & Iterators
+- [ ] 23 — Smart Pointers
+- [ ] 24 — Concurrency & Multithreading
+- [ ] 25 — Async Programming
+- [ ] 26 — Macros
+- [ ] 27 — Unsafe Rust
+- [ ] 28 — Networking & Web Development
+- [ ] 29 — Database & Serialization
 
-### Phase 4: Data Modeling and Advanced Concepts
+## Phase 4 — Professional Rust Development
 
-- [ ] 12_structs
-- [ ] 13_enums
-- [ ] 14_modules
-- [ ] 15_error_handling
-- [ ] 16_collections
-- [ ] 17_traits
-- [ ] 18_generics
-- [ ] 19_lifetimes
+- [ ] 30 — Professional Rust Development
 
-### Phase 5: Testing and Projects
+## Phase 5 — Real-world Projects & Portfolio
 
-- [ ] 20_testing
-- [ ] 21_projects
+- [ ] 31 — Real-world Projects & Portfolio
 
-## Mini Projects Progress
+## Chapter Completion Checklist
 
-- [ ] Project 01: Calculator
-- [ ] Project 02: Grade Calculator
-- [ ] Project 03: Multiplication Table
-- [ ] Project 04: Text Analyzer
-- [ ] Project 05: Student Management
-- [ ] Project 06: CLI Management System
+ใช้ Checklist นี้ก่อนเปลี่ยนสถานะ Chapter เป็น Completed:
 
-## Skill Checklist
+- [ ] อ่าน Chapter README
+- [ ] เรียน Lesson 01
+- [ ] เรียน Lesson 02
+- [ ] เรียน Lesson 03
+- [ ] เรียน Lesson 04
+- [ ] ทำ Exercise 01
+- [ ] ทำ Exercise 02
+- [ ] ทำ Exercise 03
+- [ ] ทำ Exercise 04
+- [ ] ตรวจสอบโค้ดด้วย `cargo fmt`
+- [ ] ตรวจสอบโค้ดด้วย `cargo clippy`
+- [ ] รันทดสอบด้วย `cargo test` เมื่อมี Tests
+- [ ] ทบทวนและอธิบายแนวคิดหลักของบทได้ด้วยตนเอง
 
-ใช้รายการนี้ประเมินความเข้าใจของตนเอง
+## Project Milestones
 
-### Beginner
+- [ ] Milestone 1 — Rust Setup and First Program
+- [ ] Milestone 2 — Fundamental Exercises
+- [ ] Milestone 3 — Ownership and Borrowing Practice
+- [ ] Milestone 4 — Data Structures and Error Handling
+- [ ] Milestone 5 — Traits, Generics and Lifetimes
+- [ ] Milestone 6 — Testing and Small Projects
+- [ ] Milestone 7 — Smart Pointers and Concurrency
+- [ ] Milestone 8 — Async and Networking
+- [ ] Milestone 9 — Database and Web API
+- [ ] Milestone 10 — Professional Development
+- [ ] Milestone 11 — Final Portfolio Project
 
-- [ ] เขียน Rust Syntax พื้นฐานได้
-- [ ] ประกาศ Variables ได้
-- [ ] ใช้ Data Types ได้
-- [ ] ใช้ Operators ได้
-- [ ] เขียน Conditions และ Loops ได้
-- [ ] สร้าง Functions ได้
+## Current Learning Session
 
-### Basic
+| Field            | Value            |
+| ---------------- | ---------------- |
+| Current Chapter  | 00               |
+| Current Lesson   | Not Started      |
+| Current Exercise | Not Started      |
+| Last Updated     | YYYY-MM-DD       |
+| Next Task        | Start Chapter 00 |
 
-- [ ] ใช้งาน Strings ได้
-- [ ] ใช้ Arrays และ Tuples ได้
-- [ ] ใช้ Vectors และ HashMaps ได้
-- [ ] เข้าใจ Structs และ Enums
-- [ ] เข้าใจ Ownership
-- [ ] ใช้ References และ Borrowing ได้
+> แก้ไขข้อมูลในตารางนี้เมื่อเริ่มหรือจบการเรียนแต่ละครั้ง
 
-### Intermediate
+## Learning Notes
 
-- [ ] แบ่ง Modules ได้
-- [ ] จัดการ Errors ได้
-- [ ] ใช้ Traits ได้
-- [ ] ใช้ Generics ได้
-- [ ] เข้าใจ Lifetimes
-- [ ] เขียน Unit Tests ได้
-- [ ] สร้างโปรแกรมหลายไฟล์ได้
+บันทึกสิ่งที่เรียนรู้ ปัญหาที่พบ และหัวข้อที่ต้องกลับมาทบทวน
 
-## Learning Log
+### Notes
 
-บันทึกสิ่งที่เรียนรู้ในแต่ละครั้ง
-
-| Date       | Chapter  | What I Learned         | Status  |
-| ---------- | -------- | ---------------------- | ------- |
-| YYYY-MM-DD | 00_setup | Install Rust and Cargo | Pending |
-
-## Problem Log
-
-บันทึกปัญหาที่พบและแนวทางแก้ไข
-
-| Date       | Chapter | Problem | Solution |
-| ---------- | ------- | ------- | -------- |
-| YYYY-MM-DD | -       | -       | -        |
-
-## Completion Rules
-
-ก่อนทำเครื่องหมายว่าเรียนจบแต่ละบท ให้ตรวจสอบว่า:
-
-- [ ] อ่านและเข้าใจเนื้อหาแล้ว
-- [ ] ทดลองเขียนโค้ดแล้ว
-- [ ] ทำแบบฝึกหัดแล้ว
-- [ ] รันโปรแกรมผ่าน
-- [ ] ทบทวนข้อผิดพลาดแล้ว
-- [ ] สามารถอธิบายสิ่งที่เรียนรู้ได้
-
-## Progress Update
-
-เมื่อเรียนจบแต่ละบท:
-
-1. ทำเครื่องหมาย `[x]` ในหัวข้อที่ผ่านแล้ว
-2. เพิ่มข้อมูลใน Learning Log
-3. บันทึกปัญหาใน Problem Log หากมี
-4. อัปเดต Current Phase และ Current Chapter
-5. Commit การเปลี่ยนแปลงขึ้น Git
+- Date:
+- Chapter:
+- Topic:
+- What I learned:
+- Problems:
+- Next action:
 
 ---
 
-**Remember:**
-
-Progress is measured by what you can build and explain, not just what you have read.
+**Progress Rule:** บันทึกตามสิ่งที่ทำสำเร็จจริง เพื่อให้ Progress Tracker สะท้อนความสามารถและผลงานที่มีอยู่จริง

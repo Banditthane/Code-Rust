@@ -1,215 +1,167 @@
-# 🗺️ Rust Learning Roadmap
+# Rust Complete — Roadmap
 
-Roadmap สำหรับเรียนรู้ภาษา Rust ตั้งแต่พื้นฐานจนถึงการพัฒนาโปรแกรมด้วยตนเอง
+Roadmap สำหรับเรียนรู้ Rust ตั้งแต่พื้นฐานจนถึงการพัฒนาโปรเจกต์จริง รวม 31 Chapters แบ่งเป็น 5 Phases
 
-แบ่งการเรียนรู้ออกเป็น 6 Phases
+## Phase 1 — Rust Fundamentals
 
-## Phase 0: Environment Setup
+เป้าหมาย: เข้าใจ Syntax และพื้นฐานการเขียนโปรแกรมด้วย Rust
 
-เป้าหมาย: เตรียมเครื่องมือสำหรับพัฒนา Rust
+| Chapter | Topic        | Learning Outcomes                       |
+| ------- | ------------ | --------------------------------------- |
+| 00      | Setup        | ติดตั้ง Rust, Cargo และ VS Code         |
+| 01      | Fundamentals | เข้าใจโครงสร้างโปรแกรมและ Syntax        |
+| 02      | Variables    | ใช้ Variables, Mutability และ Constants |
+| 03      | Data Types   | เข้าใจ Primitive และ Compound Types     |
+| 04      | Operators    | ใช้ Operators และ Expressions           |
+| 05      | Conditions   | ควบคุมเงื่อนไขด้วย if และ match         |
+| 06      | Loops        | ใช้ loop, while และ for                 |
+| 07      | Functions    | สร้าง Functions และ Return Values       |
+| 08      | Strings      | ใช้งาน String และ String Slices         |
+| 09      | Ownership    | เข้าใจ Ownership, Move และ Copy         |
+| 10      | Borrowing    | ใช้ References และ Borrowing Rules      |
 
-- [ ] 00_setup
-  - [ ] Install Rust
-  - [ ] Install Cargo
-  - [ ] Setup VS Code
-  - [ ] Create First Rust Project
-  - [ ] Run First Rust Program
-  - [ ] Understand Cargo.toml
+**Phase Completion**
 
-## Phase 1: Rust Fundamentals
+- [ ] เข้าใจ Syntax พื้นฐาน
+- [ ] เขียนโปรแกรมขนาดเล็กได้
+- [ ] เข้าใจ Ownership และ Borrowing เบื้องต้น
 
-เป้าหมาย: เข้าใจ Syntax และโครงสร้างพื้นฐานของภาษา
+## Phase 2 — Rust Core Concepts
 
-- [ ] 01_fundamentals
-  - [ ] Rust Introduction
-  - [ ] Rust Syntax
-  - [ ] Output
-  - [ ] Comments
+เป้าหมาย: เข้าใจโครงสร้างข้อมูล การจัดการโค้ด และระบบ Type ของ Rust
 
-- [ ] 02_variables
-  - [ ] Variables
-  - [ ] Mutable Variables
-  - [ ] Constants
-  - [ ] Variable Scope
+| Chapter | Topic           | Learning Outcomes                               |
+| ------- | --------------- | ----------------------------------------------- |
+| 11      | Data Structures | ใช้ Slices, Vectors และ HashMaps                |
+| 12      | Structs         | สร้าง Structs และ Methods                       |
+| 13      | Enums           | ใช้ Enums, Match และ Option                     |
+| 14      | Modules         | แบ่งโค้ดเป็น Modules และจัดการ Visibility       |
+| 15      | Error Handling  | จัดการ Panic, Result และ Custom Errors          |
+| 16      | Collections     | ใช้งาน Collections และจัดการข้อมูล              |
+| 17      | Traits          | สร้างและ Implement Traits                       |
+| 18      | Generics        | เขียน Generic Functions และ Types               |
+| 19      | Lifetimes       | เข้าใจ Lifetime Annotations                     |
+| 20      | Testing         | เขียน Unit, Integration และ Documentation Tests |
 
-- [ ] 03_data_types
-  - [ ] Integer
-  - [ ] Floating Point
-  - [ ] Boolean
-  - [ ] Character
-  - [ ] Type Annotations
-  - [ ] Type Conversion
+**Phase Completion**
 
-- [ ] 04_operators
-  - [ ] Arithmetic Operators
-  - [ ] Assignment Operators
-  - [ ] Comparison Operators
-  - [ ] Logical Operators
+- [ ] ออกแบบ Structs และ Enums ได้
+- [ ] แบ่งโค้ดเป็น Modules ได้
+- [ ] จัดการ Errors ได้เหมาะสม
+- [ ] ใช้ Traits และ Generics ได้
+- [ ] เข้าใจ Lifetimes
+- [ ] เขียน Tests ได้
 
-## Phase 2: Program Control
+## Phase 3 — Advanced Rust
 
-เป้าหมาย: ควบคุมลำดับการทำงานของโปรแกรม
+เป้าหมาย: เข้าใจแนวคิดขั้นสูงและสร้าง Application ที่มีความซับซ้อนขึ้น
 
-- [ ] 05_conditions
-  - [ ] If
-  - [ ] Else
-  - [ ] Else If
-  - [ ] Match
+| Chapter | Topic                        | Learning Outcomes                         |
+| ------- | ---------------------------- | ----------------------------------------- |
+| 21      | Projects                     | วางแผนและสร้างโปรเจกต์ขนาดเล็ก            |
+| 22      | Closures & Iterators         | ใช้ Closures และ Iterator Pipelines       |
+| 23      | Smart Pointers               | ใช้ Box, Rc, Arc และ RefCell              |
+| 24      | Concurrency & Multithreading | สร้างโปรแกรมหลาย Threads                  |
+| 25      | Async Programming            | ใช้ Futures, Tokio และ Async Tasks        |
+| 26      | Macros                       | สร้าง Declarative และ Procedural Macros   |
+| 27      | Unsafe Rust                  | เข้าใจ Raw Pointers และ Unsafe Boundaries |
+| 28      | Networking & Web Development | สร้าง TCP Client และ Web APIs             |
+| 29      | Database & Serialization     | ใช้ SQLx, Serde และ Database              |
 
-- [ ] 06_loops
-  - [ ] Loop
-  - [ ] While
-  - [ ] For
-  - [ ] Break
-  - [ ] Continue
-  - [ ] Nested Loops
+**Phase Completion**
 
-- [ ] 07_functions
-  - [ ] Function Basics
-  - [ ] Parameters
-  - [ ] Return Values
-  - [ ] Multiple Parameters
-  - [ ] Expressions and Statements
-  - [ ] Function Scope
+- [ ] ใช้ Iterator และ Closures ได้
+- [ ] เลือก Smart Pointer ได้เหมาะสม
+- [ ] เข้าใจ Thread และ Shared State
+- [ ] เขียน Async Tasks ได้
+- [ ] เข้าใจ Macro Expansion
+- [ ] เข้าใจข้อจำกัดและความเสี่ยงของ Unsafe Rust
+- [ ] สร้าง Web API ได้
+- [ ] เชื่อมต่อ Database ได้
 
-## Phase 3: Rust Core Concepts
+## Phase 4 — Professional Rust Development
 
-เป้าหมาย: เข้าใจแนวคิดสำคัญที่เป็นเอกลักษณ์ของ Rust
+เป้าหมาย: พัฒนาทักษะสำหรับการทำงานกับโปรเจกต์จริง
 
-- [ ] 08_strings
-  - [ ] String
-  - [ ] String Slice
-  - [ ] String Methods
-  - [ ] String Formatting
+| Chapter | Topic                         | Learning Outcomes                                                                 |
+| ------- | ----------------------------- | --------------------------------------------------------------------------------- |
+| 30      | Professional Rust Development | ใช้ Workspace, Documentation, Code Quality, Benchmarking, Security และ Deployment |
 
-- [ ] 09_ownership
-  - [ ] Ownership Rules
-  - [ ] Move
-  - [ ] Clone
-  - [ ] Copy
-  - [ ] Stack and Heap
+**Phase Completion**
 
-- [ ] 10_borrowing
-  - [ ] References
-  - [ ] Immutable Borrowing
-  - [ ] Mutable Borrowing
-  - [ ] Borrowing Rules
-  - [ ] Dangling References
+- [ ] จัดการ Cargo Workspace ได้
+- [ ] เขียน Documentation ได้
+- [ ] ใช้ rustfmt และ Clippy ได้
+- [ ] วัด Performance ด้วย Benchmarking
+- [ ] ตรวจสอบ Dependency และ Security Risks
+- [ ] จัดการ Configuration และ Logging
+- [ ] เตรียมโปรแกรมสำหรับ Release และ Deployment
 
-- [ ] 11_data_structures
-  - [ ] Arrays
-  - [ ] Tuples
-  - [ ] Slices
-  - [ ] Vectors
-  - [ ] HashMaps
+## Phase 5 — Real-world Projects & Portfolio
 
-## Phase 4: Data Modeling and Advanced Concepts
+เป้าหมาย: ประยุกต์ใช้ Rust เพื่อสร้างผลงานที่นำเสนอได้
 
-เป้าหมาย: ออกแบบและจัดโครงสร้างข้อมูลในโปรแกรม
+| Chapter | Topic                           | Learning Outcomes                        |
+| ------- | ------------------------------- | ---------------------------------------- |
+| 31      | Real-world Projects & Portfolio | ออกแบบ พัฒนา ทดสอบ และนำเสนอโปรเจกต์จริง |
 
-- [ ] 12_structs
-  - [ ] Struct Basics
-  - [ ] Struct Instances
-  - [ ] Methods
-  - [ ] Associated Functions
+**Phase Completion**
 
-- [ ] 13_enums
-  - [ ] Enum Basics
-  - [ ] Enum Variants
-  - [ ] Option
-  - [ ] Result
-  - [ ] Pattern Matching
+- [ ] วางแผนและออกแบบ Architecture
+- [ ] สร้าง Backend หรือ Application
+- [ ] เชื่อมต่อ Database
+- [ ] จัดการ Authentication และ Authorization ตามความเหมาะสม
+- [ ] เขียน Tests
+- [ ] ตรวจสอบ Security และ Performance
+- [ ] เขียน README และ Technical Documentation
+- [ ] จัดทำ GitHub Repository
+- [ ] มี Demo หรือหลักฐานการทำงานของโปรเจกต์
 
-- [ ] 14_modules
-  - [ ] Modules
-  - [ ] Packages
-  - [ ] Crates
-  - [ ] Paths
-  - [ ] Visibility
-  - [ ] File Organization
-
-- [ ] 15_error_handling
-  - [ ] Panic
-  - [ ] Result
-  - [ ] Option
-  - [ ] Error Propagation
-  - [ ] The ? Operator
-
-- [ ] 16_collections
-  - [ ] Vector
-  - [ ] String
-  - [ ] HashMap
-  - [ ] Collection Iteration
-
-- [ ] 17_traits
-  - [ ] Trait Basics
-  - [ ] Implementing Traits
-  - [ ] Trait Bounds
-  - [ ] Derivable Traits
-
-- [ ] 18_generics
-  - [ ] Generic Functions
-  - [ ] Generic Structs
-  - [ ] Generic Enums
-  - [ ] Generic Implementations
-
-- [ ] 19_lifetimes
-  - [ ] Lifetime Basics
-  - [ ] Lifetime Annotations
-  - [ ] Lifetime in Functions
-  - [ ] Lifetime in Structs
-
-## Phase 5: Testing and Projects
-
-เป้าหมาย: นำความรู้ทั้งหมดมาพัฒนาโปรแกรม
-
-- [ ] 20_testing
-  - [ ] Unit Tests
-  - [ ] Integration Tests
-  - [ ] Assertions
-  - [ ] Test Organization
-  - [ ] cargo test
-
-- [ ] 21_projects
-  - [ ] Project 01: Calculator
-  - [ ] Project 02: Grade Calculator
-  - [ ] Project 03: Multiplication Table
-  - [ ] Project 04: Text Analyzer
-  - [ ] Project 05: Student Management
-  - [ ] Project 06: CLI Management System
-
-## Completion Criteria
-
-ถือว่าผ่านแต่ละบทเมื่อ:
-
-1. อ่านและอธิบายแนวคิดหลักได้
-2. เขียนตัวอย่างด้วยตนเองได้
-3. ทำแบบฝึกหัดผ่านเกณฑ์
-4. ทดสอบโปรแกรมผ่าน
-5. สามารถนำความรู้ไปใช้กับโจทย์ใหม่ได้
-
-## Learning Strategy
-
-เรียนแต่ละหัวข้อตามลำดับ:
+## Recommended Learning Sequence
 
 ```text
-READ
-  ↓
-UNDERSTAND
-  ↓
-CODE
-  ↓
-PRACTICE
-  ↓
-TEST
-  ↓
-REVIEW
-  ↓
-BUILD
+Rust Fundamentals
+       |
+       v
+Rust Core Concepts
+       |
+       v
+Advanced Rust
+       |
+       v
+Professional Development
+       |
+       v
+Real-world Projects
+       |
+       v
+Rust Portfolio
 ```
 
-## Reference
+## Learning Rules
 
-เนื้อหาพื้นฐานอ้างอิงตามลำดับหัวข้อจาก W3Schools Rust Tutorial
+1. เรียนตามลำดับ Chapter
+2. อ่านบทเรียนทั้ง 4 หัวข้อก่อนทำ Exercises
+3. ทำ Exercises ด้วยตนเอง
+4. ทดสอบโปรแกรมด้วย Cargo
+5. ทบทวนบทที่ยังไม่เข้าใจก่อนข้ามไปบทถัดไป
+6. นำความรู้จากหลาย Chapters มาประยุกต์ใช้ใน Projects
 
-หัวข้อ Traits, Generics, Lifetimes, Testing และ Mini Projects เป็นเนื้อหาต่อยอดเพิ่มเติมจากเส้นทางพื้นฐาน เพื่อให้ครอบคลุมการพัฒนาโปรแกรม Rust ได้มากขึ้น
+## Important Dependencies
+
+หัวข้อบางส่วนควรเข้าใจพื้นฐานก่อนเรียนต่อ:
+
+| Topic                    | Recommended Prerequisites                           |
+| ------------------------ | --------------------------------------------------- |
+| Smart Pointers           | Ownership และ Borrowing                             |
+| Concurrency              | Ownership, Borrowing, Smart Pointers                |
+| Async Programming        | Futures, Ownership และ Concurrency Concepts         |
+| Macros                   | Functions, Types, Traits และ Generics               |
+| Unsafe Rust              | References, Pointers และ Memory Safety              |
+| Web Development          | Async Programming, Error Handling และ Serialization |
+| Database                 | Async Programming, Error Handling และ Structs       |
+| Professional Development | Cargo, Testing และ Projects                         |
+
+---
+
+**Roadmap Goal:** จากผู้เริ่มต้น Rust ไปสู่การสร้าง Application ที่มีคุณภาพและนำเสนอเป็น Portfolio ได้
